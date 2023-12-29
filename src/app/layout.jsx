@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "SOS",
+  title: "SOS GAMING APP",
   description: "Survival at all cost game",
 };
 

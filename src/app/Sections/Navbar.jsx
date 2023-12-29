@@ -14,7 +14,7 @@ import { SiSteam } from "react-icons/si";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="z-10 mt-0 lg:px-20 lg:py-4 px-4 py-4">
+    <nav className="z-50 mt-0 lg:px-20 lg:py-4 px-4 py-4">
       <div className="flex relative lg:items-center justify-between">
         <div className="block">
           <Image src={logo} alt="logo" className="w-auto h-auto max-lg:w-[55px]" priority />
@@ -62,7 +62,7 @@ const Navbar = () => {
 
         {/* NavBar Mobile */}
 
-        <div className="lg:hidden flex flex-col justify-start items-start ">
+        <div className="lg:hidden flex flex-col justify-start items-start z-50">
           {toggleMenu ? (
             <IoClose size={28} color="#fff" onClick={() => setToggleMenu(false)} />
           ) : (
@@ -101,10 +101,10 @@ const Navbar = () => {
                   </details>
                 </div>
                 <div className="flex justify-start items-start space-x-4 ">
-                  <a href="https://www.xbox.com/en-NZ/" className="text-yellow hover:text-[#107c10]">
+                  <a href="https://www.xbox.com/en-NZ/" className="text-[#107c10]">
                     <SiXbox size={30} />
                   </a>
-                  <a href="https://store.steampowered.com/" className="text-yellow hover:text-[#c6d4df]">
+                  <a href="https://store.steampowered.com/" className="text-[#c6d4df]">
                     <SiSteam size={30} />
                   </a>
                 </div>

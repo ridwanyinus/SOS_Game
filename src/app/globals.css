@@ -55,3 +55,6 @@
   object-fit: contain;
   background-repeat: no-repeat;
 }
+.button-bg {
+  background: linear-gradient(195deg, #ffb548 11.27%, #f3af34 90.4%);
+}

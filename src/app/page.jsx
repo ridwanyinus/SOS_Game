@@ -9,7 +9,7 @@ import Quote from "./Sections/Quote";
 const Home = () => {
   return (
     <main>
-      <section className="w-full h-screen max-lg:object-contain max-lg:bg-left-bottom lg:w-full lg:h-[960px] bg-[url('/assets/hero.png')] relative ">
+      <section className="w-full h-full max-lg:object-contain max-widescreen:bg-left-bottom  xl:h-[960px] bg-[url('/assets/hero.png')] relative pb-12 overflow-hidden">
         <div className="overlay"></div>
         <Navbar />
         <Hero />
