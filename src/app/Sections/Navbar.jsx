@@ -70,7 +70,7 @@ const Navbar = () => {
           )}
 
           {toggleMenu && (
-            <div className="bg-dark fixed top-0 right-0 w-[250px] sm:w-[300px] h-screen transition-all scale-up-hor-right duration-[0.3s] py-6 px-4">
+            <div className="bg-dark fixed top-0 right-0 w-[250px] sm:w-[300px] h-[50vh] transition-all scale-up-hor-right duration-[0.3s] py-6 px-4">
               <IoClose color="#fff" size={28} onClick={() => setToggleMenu(false)} className="active:text-accentRed active:scale-105" />
               <ul className="py-8 space-y-4">
                 {navLinks.map((item) => (
