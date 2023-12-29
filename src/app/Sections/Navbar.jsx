@@ -70,7 +70,7 @@ const Navbar = () => {
           )}
 
           {toggleMenu && (
-            <div className="bg-dark fixed top-0 right-0 w-[250px] sm:w-[300px] h-[50vh] transition-all scale-up-hor-right duration-[0.3s] py-6 px-4">
+            <div className="bg-dark fixed top-0 right-0 w-[250px] sm:w-[300px] h-auto transition-all scale-up-hor-right duration-[0.3s] py-6 px-4">
               <IoClose color="#fff" size={28} onClick={() => setToggleMenu(false)} className="active:text-accentRed active:scale-105" />
               <ul className="py-8 space-y-4">
                 {navLinks.map((item) => (
@@ -99,6 +99,14 @@ const Navbar = () => {
                       <p className=" text-yellow  font-open text-xs font-bold leading-none tracking-[1.2px] uppercase cursor-pointer ">DEU</p>
                     </div>
                   </details>
+                </div>
+                <div className="flex justify-start items-start space-x-4 ">
+                  <a href="https://www.xbox.com/en-NZ/" className="text-yellow hover:text-[#107c10]">
+                    <SiXbox size={30} />
+                  </a>
+                  <a href="https://store.steampowered.com/" className="text-yellow hover:text-[#c6d4df]">
+                    <SiSteam size={30} />
+                  </a>
                 </div>
               </ul>
             </div>
