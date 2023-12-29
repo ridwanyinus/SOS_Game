@@ -15,7 +15,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className="z-10 mt-0 lg:px-20 lg:py-4 px-4 py-4">
-      <div className="flex  relative  items-center justify-between">
+      <div className="flex relative lg:items-center justify-between">
         <div className="block">
           <Image src={logo} alt="logo" className="w-auto h-auto max-lg:w-[55px]" priority />
         </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
 
           {toggleMenu && (
             <div className="bg-dark fixed top-0 right-0 w-[250px] sm:w-[300px] h-screen transition-all scale-up-hor-right duration-[0.3s] py-6 px-4">
-              <IoClose color="#fff" onClick={() => setToggleMenu(false)} className="active:text-accentRed active:scale-105" />
+              <IoClose color="#fff" size={28} onClick={() => setToggleMenu(false)} className="active:text-accentRed active:scale-105" />
               <ul className="py-8 space-y-4">
                 {navLinks.map((item) => (
                   <li key={item.id} className="text-yellow  font-open text-xs font-bold leading-none tracking-[1.2px] uppercase">

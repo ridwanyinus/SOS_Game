@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import Navbar from "./Sections/Navbar";
 import Hero from "./Sections/Hero";
 import About from "./Sections/About";
@@ -11,7 +9,7 @@ import Quote from "./Sections/Quote";
 const Home = () => {
   return (
     <main>
-      <section className="w-full h-[960px] bg-[url('/assets/hero.png')] relative ">
+      <section className="w-full h-screen max-lg:object-contain max-lg:bg-left-bottom lg:w-full lg:h-[960px] bg-[url('/assets/hero.png')] relative ">
         <div className="overlay"></div>
         <Navbar />
         <Hero />
