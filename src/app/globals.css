@@ -54,7 +54,33 @@
   inset: 0px;
   object-fit: contain;
   background-repeat: no-repeat;
+  margin: 0;
 }
 .button-bg {
   background: linear-gradient(195deg, #ffb548 11.27%, #f3af34 90.4%);
+}
+
+#about::before {
+  opacity: 0.9;
+  background: #010101;
+  width: 100%;
+  height: 100%;
+  inset: 0px;
+  position: absolute;
+  content: "";
+}
+.about_gradient {
+  background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080a0b 99.74%);
+  position: absolute;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+}
+#about::after {
+  opacity: 0.9;
+  background: linear-gradient(0deg, #000 0%, rgba(15, 15, 15, 0) 71.81%);
+  position: absolute;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
 }
