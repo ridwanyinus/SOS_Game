@@ -15,8 +15,8 @@ const Home = () => {
         <div className="overlay"></div>
         <Navbar />
         <Hero />
-        <div className="absolute bottom-5 xl:bottom-10 max-md:right-[45%]  xl:right-[50%] block w-fit mx-auto place-content-center">
-          <a href="#about" className="text-white font-open text-xs leading-[22px] uppercase font-bold text-center flex flex-col justify-center items-center space-y-1 ">
+        <div className="absolute bottom-5 xl:bottom-10 max-xl:right-[45%]  xl:right-[50%] block w-fit mx-auto place-content-center">
+          <a href="#about" className="text-white font-open text-[10px] xs:text-xs leading-[22px] uppercase font-bold text-center flex flex-col justify-center items-center xs:space-y-1 ">
             <button type="button" className="uppercase">
               the story
             </button>

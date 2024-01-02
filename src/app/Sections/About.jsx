@@ -14,7 +14,6 @@ const About = () => {
         </h1>
         <div className="bg-white w-[50vw] xl:w-[711px] h-[2px] block rounded absolute top-[48%] lg:top-[48%] inset-0 z-10 max-lg:hidden"></div>
 
-
         <article className="text-xs xs:text-[13px] sm:text-[14px] md:text-base lg:text-lg font-open font-normal md:leading-[22px] md:place-items-end flex justify-center">
           <div className="md:w-[364px] ">
             Each round, <span className="font-bold">you</span> and <span className="font-bold">15</span> other contestants compete to escape a deadly island filled with monsters. The trick is:{" "}
@@ -24,8 +23,8 @@ const About = () => {
         </article>
       </div>
 
-      <div className="flex-1 relative  flex justify-center items-center place-items-center h-full w-full overflow-hidden max-xs:pt-12 lg:pt-44 xl:mt-0">
-        <CarouselPage className="relative" />
+      <div className="flex-1 relative  flex justify-center items-center place-items-center h-full w-full overflow-hidden max-xs:pt-12 lg:pt-28 xl:mt-0">
+        <CarouselPage className="relative  xs:pb-20 lg:pb-0" />
       </div>
     </section>
   );
