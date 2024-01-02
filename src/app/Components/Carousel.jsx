@@ -47,7 +47,7 @@ const CarouselPage = () => {
             </div>
           );
         }}>
-        <div className="w-[40vw] h-[60vh] xs:h-[70vh] lg:w-[502px]   lg:h-[85vh] ">
+        <div className="w-[40vw] h-[40vh] xs:h-[60vh] lg:w-[502px]   lg:h-[85vh] ">
           <Image
             src={screenshot1}
             quality={100}
@@ -57,7 +57,7 @@ const CarouselPage = () => {
           />
         </div>
 
-        <div className="w-[40vw] h-[50vh] xs:h-[70vh] lg:w-[502px]   lg:h-[85vh]  ">
+        <div className="w-[40vw] h-[40vh] xs:h-[60vh] lg:w-[502px]   lg:h-[85vh]  ">
           <Image
             src={screenshot2}
             quality={100}
@@ -66,7 +66,7 @@ const CarouselPage = () => {
             className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  xl:translate-x-9 widescreen:translate-x-14"
           />
         </div>
-        <div className="w-[40vw] h-[50vh] xs:h-[70vh] lg:w-[502px]   lg:h-[85vh]  ">
+        <div className="w-[40vw] h-[40vh] xs:h-[60vh] lg:w-[502px]   lg:h-[85vh]  ">
           <Image
             src={screenshot3}
             quality={100}
@@ -75,7 +75,7 @@ const CarouselPage = () => {
             className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  xl:translate-x-9 widescreen:translate-x-14"
           />
         </div>
-        <div className="w-[40vw] h-[50vh] xs:h-[70vh] lg:w-[502px]   lg:h-[85vh]  ">
+        <div className="w-[40vw] h-[40vh] xs:h-[60vh] lg:w-[502px]   lg:h-[85vh]  ">
           <Image
             src={screenshot4}
             quality={100}
@@ -84,7 +84,7 @@ const CarouselPage = () => {
             className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  xl:translate-x-9 widescreen:translate-x-14"
           />
         </div>
-        <div className="w-[40vw] h-[50vh] xs:h-[70vh] lg:w-[502px]   lg:h-[85vh]  ">
+        <div className="w-[40vw] h-[40vh] xs:h-[60vh] lg:w-[502px]   lg:h-[85vh]  ">
           <Image
             src={screenshot5}
             quality={100}
@@ -93,7 +93,7 @@ const CarouselPage = () => {
             className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  xl:translate-x-9 widescreen:translate-x-14"
           />
         </div>
-        <div className="w-[40vw] h-[50vh] xs:h-[70vh] lg:w-[502px]   lg:h-[85vh]  ">
+        <div className="w-[40vw] h-[40vh] xs:h-[60vh] lg:w-[502px]   lg:h-[85vh]  ">
           <Image
             src={screenshot6}
             quality={100}
@@ -102,7 +102,7 @@ const CarouselPage = () => {
             className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  xl:translate-x-9 widescreen:translate-x-14"
           />
         </div>
-        <div className="w-[40vw] h-[50vh] xs:h-[70vh] lg:w-[502px]   lg:h-[85vh]  ">
+        <div className="w-[40vw] h-[40vh] xs:h-[60vh] lg:w-[502px]   lg:h-[85vh]  ">
           <Image
             src={screenshot7}
             quality={100}
