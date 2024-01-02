@@ -47,26 +47,26 @@ const CarouselPage = () => {
             </div>
           );
         }}>
-        <div className="w-[40vw] h-[40vh]  translate-x-2">
+        <div className="w-[40vw] h-[30vh]  translate-x-2">
           <Image src={screenshot1} quality={100} placeholder="blur" alt="gaming-map" className="w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover " />
         </div>
 
-        <div className="w-[40vw] h-[40vh] translate-x-2   ">
+        <div className="w-[40vw] h-[30vh]  translate-x-2   ">
           <Image src={screenshot2} quality={100} placeholder="blur" alt="gaming-map" className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  " />
         </div>
-        <div className="w-[40vw] h-[40vh] translate-x-2   ">
+        <div className="w-[40vw] h-[30vh]  translate-x-2   ">
           <Image src={screenshot3} quality={100} placeholder="blur" alt="gaming-map" className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  " />
         </div>
-        <div className="w-[40vw] h-[40vh] translate-x-2  ">
+        <div className="w-[40vw] h-[30vh]  translate-x-2  ">
           <Image src={screenshot4} quality={100} placeholder="blur" alt="gaming-map" className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  " />
         </div>
-        <div className="w-[40vw] h-[40vh] translate-x-2  ">
+        <div className="w-[40vw] h-[30vh]  translate-x-2  ">
           <Image src={screenshot5} quality={100} placeholder="blur" alt="gaming-map" className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  " />
         </div>
-        <div className="w-[40vw] h-[40vh] translate-x-2   ">
+        <div className="w-[40vw] h-[30vh]  translate-x-2   ">
           <Image src={screenshot6} quality={100} placeholder="blur" alt="gaming-map" className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  " />
         </div>
-        <div className="w-[40vw] h-[40vh] translate-x-2   ">
+        <div className="w-[40vw] h-[30vh]  translate-x-2   ">
           <Image src={screenshot7} quality={100} placeholder="blur" alt="gaming-map" className=" w-auto h-full rounded-[6px] outline-none border-none max-lg:object-cover  " />
         </div>
       </Carousel>
