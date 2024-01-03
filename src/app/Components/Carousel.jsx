@@ -74,9 +74,9 @@ const CarouselPage = () => {
       {/* Large Devices */}
       <Carousel
         className={`transition-all xs:pt-20 lg:pt-0 ease-in-out w-full lg:w-[95%] xl:w-full max-xs:hidden`}
-        // autoPlay
+        autoPlay
         // infiniteLoop
-        // emulateTouch
+        emulateTouch
         showArrows
         showStatus={false}
         showThumbs={false}
