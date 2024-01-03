@@ -59,6 +59,9 @@
 .button-bg {
   background: linear-gradient(195deg, #ffb548 11.27%, #f3af34 90.4%);
 }
+.button-bg:hover {
+  background: #010101;
+}
 
 #about::before {
   opacity: 0.9;

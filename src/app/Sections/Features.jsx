@@ -6,7 +6,7 @@ const Features = () => {
     <section id="feature" className="lg:px-12  bg-dark w-full  h-full lg:h-[880px] relative flex">
       <div className="absolute w-screen top-0 left-0  h-full bg-dark bg-opacity-75 xl:hidden"></div>
 
-      <main className="relative flex-1 xl:w-[35vw] z-10 md:pt-36 flex flex-col items-end xs:items-start  md:items-end px-4 xs:px-12 lg:px-0 max-lg:py-12">
+      <main className="relative flex-1 xl:w-[35vw] z-10 md:pt-36 flex flex-col items-end xs:items-start  md:items-end px-4 xs:px-12 lg:px-0 max-lg:py-12 xl:mr-12">
         <div>
           <p className="text-white text-lg xs:text-xl sm:text-2xl font-bebas leading-normal font-normal tracking-[2px] ml-8">What’s so special?</p>
           <h1 className="text-white text-4xl xs:text-6xl sm:text-7xl max-lg:py-2 lg:text-[80px] font-bebas uppercase tracking-[3px] leading-normal font-normal ml-8">features</h1>

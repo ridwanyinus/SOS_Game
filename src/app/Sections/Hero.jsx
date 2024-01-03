@@ -10,15 +10,15 @@ const Hero = () => {
 
       <a
         href="https://store.steampowered.com/"
-        className="group relative inline-flex items-center overflow-hidden button-bg rounded focus:outline-none focus:ring active:bg-yellow px-5 py-2 xs:py-3 hover:scale-105 transition-all  max-sm:mt-2">
-        <span className="absolute -start-full transition-all group-hover:start-4">
-          <MdOutlineGetApp size={20} className="-rotate-90" />
+        className="group relative inline-flex items-center overflow-hidden button-bg rounded focus:outline-none focus:ring  px-5 py-2 xs:py-3 hover:scale-105 transition-all max-sm:mt-2 group-hover:bg-dark ">
+        <span className="absolute -start-full transition-all group-hover:start-4 ">
+          <MdOutlineGetApp size={20} className="-rotate-90 group-hover:text-white" />
         </span>
 
-        <button className="inline-flex text-darkbrown font-bold font-open text-[14px] xs:text-base leading-normal gap-2 transition-all group-hover:ms-6 ">
+        <button className="inline-flex text-darkbrown font-bold font-open text-[14px] xs:text-base leading-normal gap-2 transition-all group-hover:ms-6 group-hover:text-white">
           Buy on steam
-          <span className="inline-flex">
-            <Image src={btndivider} alt="divider" />
+          <span className="inline-block group-hover:text-white">
+            <Image src={btndivider} alt="divider" className="group-hover:text-white" />
           </span>
           $14.99
         </button>
