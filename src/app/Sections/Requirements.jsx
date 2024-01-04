@@ -5,7 +5,7 @@ const Requirements = () => {
     <section id="requirments" className="relative py-20  w-full h-[960px] bg-[url('/assets/requirements-bg.png')] sm:bg-[url('/assets/requirements.png')] _requirements space-y-20 max-lg:h-full">
       <div className="relative text-center pt-16  mx-auto">
         <p className="text-white  font-bebas text-base xs:text-lg sm:text-2xl tracking-[2px] leading-normal font-normal">Can My Computer Run this game?</p>
-        <h1 className="uppercase font-bebas  text-4xl sm:text-5xl md:text-7xl lg:text-[80px] tracking-[3px] text-white">system requirements</h1>
+        <h1 className="uppercase  font-bebas  text-4xl sm:text-5xl md:text-7xl lg:text-[80px] tracking-[3px] text-white">system requirements</h1>
       </div>
 
       <main className="relative grid max-xs:*:col-span-2 grid-cols-2 xs:w-[90%] sm:w-[70%] md:w-[572px] place-content-start border-grey border-[1px] rounded-sm lg:rounded z-10 mx-8 sm:ml-12 lg:ml-24 outline-none">
