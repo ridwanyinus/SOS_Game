@@ -7,7 +7,7 @@ const About = () => {
       className="relative bg-[url('/assets/about.png')] h-full lg:h-[960px] w-full lg:px-16 flex justify-center  place-items-center *:text-white overflow-hidden max-lg:py-16 max-lg:mx-auto space-x-4 xs:space-x-8 md:space-x-10 lg:space-x-0">
       <div className="about_gradient"></div>
 
-      <div className="flex flex-col relative space-y-4 flex-1">
+      <div className="flex flex-col relative space-y-4 flex-1 z-50">
         <h3 className="text-base xs:text-lg md:text-[20px] lg:text-2xl font-bebas font-normal leading-normal tracking-[2px]">What is SOS?</h3>
         <h1 className="text-2xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-[80px] font-bold leading-[97.5%] tracking-[3px] uppercase  font-bebas lg:pb-4">
           social battle <br /> royale game
@@ -24,7 +24,7 @@ const About = () => {
       </div>
 
       <div className="flex-1 relative  flex justify-center items-center place-items-center h-full w-full overflow-hidden max-xs:pt-12 lg:pt-28 xl:mt-0">
-        <CarouselPage className="relative  xs:pb-20 lg:pb-0 z-10" />
+        <CarouselPage className="relative  xs:pb-20 lg:pb-0" />
       </div>
     </section>
   );
