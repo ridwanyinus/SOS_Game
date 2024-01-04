@@ -23,7 +23,7 @@ const CarouselPage = () => {
     margin: "0 8px",
   };
   return (
-    <div className="place-items-center w-auto  h-[60%]  relative overflow-hidden">
+    <div className="place-items-center w-auto  h-[60%]  relative overflow-hidden z-10">
       <Carousel
         className={`transition-all  ease-in-out w-full lg:w-[95%] xl:w-full xs:hidden`}
         autoPlay
@@ -73,7 +73,7 @@ const CarouselPage = () => {
 
       {/* Large Devices */}
       <Carousel
-        className={`transition-all xs:pt-20 lg:pt-0 ease-in-out w-full lg:w-[95%] xl:w-full max-xs:hidden`}
+        className={`transition-all xs:pt-20 lg:pt-0 ease-in-out w-full lg:w-[95%] xl:w-full max-xs:hidden z-10`}
         autoPlay
         // infiniteLoop
         emulateTouch

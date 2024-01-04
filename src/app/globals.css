@@ -48,13 +48,15 @@
 
 .overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 115vh;
   background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.8) 73.22%, #08090a 99.74%);
-  inset: 0px;
+  /* inset: 0px; */
   object-fit: contain;
   background-repeat: no-repeat;
   margin: 0;
+  bottom: -5px;
+
 }
 .button-bg {
   background: linear-gradient(195deg, #ffb548 11.27%, #f3af34 90.4%);
@@ -67,11 +69,12 @@
   opacity: 0.9;
   background: #010101;
   width: 100%;
-  height: 100%;
+  height: 110%;
   inset: 0px;
   position: absolute;
   content: "";
   top: 0;
+
 }
 .about_gradient {
   background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080a0b 99.74%);
@@ -110,6 +113,29 @@
   bottom: 0;
   inset: -5px 0px 0px 0px;
 }
+
+#requirments::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  top: 0;
+  bottom: 0;
+  background: radial-gradient(50% 49.23% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #010101 99.74%);
+}
+#requirments::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.9;
+  background: linear-gradient(0deg, #000 0%, rgba(15, 15, 15, 0) 71.81%);
+}
+/* Media Query */
 
 @media screen and (max-width: 1211px) {
   #feature::before {
