@@ -7,7 +7,9 @@ import Image from "next/image";
 
 const Quote = () => {
   return (
-    <section id="quote" className="px-4 sm:px-8 md:px-12 xl:px-16  relative py-24  lg:py-32 xl:py-40 h-full  w-full bg-darkbrown flex  max-small:flex-col justify-between max-small:space-y-12">
+    <section
+      id="quote"
+      className="max-small:px-6 px-4 sm:px-8 md:px-12 xl:px-16  relative py-24  lg:py-32 xl:py-40 h-full  w-full bg-darkbrown flex  max-small:flex-col justify-between max-small:space-y-12">
       <div className="z-10  relative flex flex-col justify-center max-lg:flex-1 ">
         <h2 className="text-white text-xl xs:text-2xl font-bebas tracking-[2px] leading-normal pb-3 w-fit">What people think?</h2>
         <h1 className="text-white text-4xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[80px] font-bebas font-normal uppercase leading-[100%] tracking-[3px] pb-10 w-fit">Press quotes</h1>
@@ -21,12 +23,12 @@ const Quote = () => {
         </a>
       </div>
 
-      <div className="space-y-6 sm:space-y-4 lg:space-y-12 xl:space-y-16 relative z-10 *:cursor-pointer flex flex-col justify-center lg:justify-center items-end  max-lg:flex-1">
+      <div className="space-y-6 sm:space-y-4 lg:space-y-12 xl:space-y-16 relative z-10 *:cursor-pointer flex flex-col justify-center lg:justify-center xs:items-end  max-lg:flex-1">
         <div className=" lg:h-[150px] w-[70%] xs:w-[90%] md:w-[70%] lg:w-[80%] xl:w-[90%] sm:w-[80%] ">
           <Image src={quote1} alt="testimonials" className=" hover:contrast-150 shadow-md shadow-grey hover:shadow-yellow hover:scale-105 transition-all ease-linear " />
         </div>
 
-        <div className=" w-[70%] xs:w-[90%] -translate-x-12 xs:-translate-x-6 sm:-translate-x-12 md:-translate-x-16 xl:-translate-x-36 sm:w-[80%] md:w-[70%] lg:h-[150px] lg:w-[80%] xl:w-[90%]">
+        <div className=" w-[70%] xs:w-[90%] translate-x-12 xs:-translate-x-6 sm:-translate-x-12 md:-translate-x-16 xl:-translate-x-36 sm:w-[80%] md:w-[70%] lg:h-[150px] lg:w-[80%] xl:w-[90%]">
           <Image src={quote2} alt="testimonials" className=" hover:contrast-150 shadow-md hover:shadow-md hover:shadow-yellow shadow-yellow hover:scale-105 transition-all ease-linear " />
         </div>
 
