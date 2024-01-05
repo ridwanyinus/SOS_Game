@@ -18,8 +18,10 @@ const Quote = () => {
           listen to what our users has to say.
         </p>
 
-        <a href="/" className="group relative inline-flex  bg-yellow rounded focus:outline-none focus:ring px-4 md:px-6 py-4 hover:scale-105 transition-all hover:bg-grey mt-12 w-fit max-small:hidden">
-          <button className=" text-darkbrown font-bold font-open text-[14px] md:text-base leading-normal  transition-all  group-hover:text-black">Read more testimonials</button>
+        <a
+          href="/"
+          className="group relative inline-flex  bg-yellow rounded focus:outline-none focus:ring px-4 md:px-6 py-4 hover:scale-105 transition-all hover:bg-accentRed  mt-12 w-fit max-small:hidden">
+          <button className=" text-darkbrown font-bold font-open text-[14px] md:text-base leading-normal  transition-all  group-hover:text-white">Read more testimonials</button>
         </a>
       </div>
 
@@ -38,8 +40,8 @@ const Quote = () => {
       </div>
       <a
         href="/"
-        className="group z-10 mx-auto relative inline-flex  bg-yellow rounded focus:outline-none focus:ring px-4 md:px-6 py-4 hover:scale-105 transition-all hover:bg-grey mt-12 w-fit small:hidden">
-        <button className=" text-darkbrown font-bold font-open text-[14px] md:text-base leading-normal  transition-all  group-hover:text-black">Read more testimonials</button>
+        className="group z-10 mx-auto relative inline-flex  bg-yellow rounded focus:outline-none focus:ring px-4 md:px-6 py-3 hover:scale-105 transition-all hover:bg-accentRed mt-12 w-fit small:hidden hover:text-white">
+        <button className=" text-darkbrown font-bold font-open text-[14px] md:text-base leading-normal  transition-all   group-hover:text-white">Read more testimonials</button>
       </a>
     </section>
   );

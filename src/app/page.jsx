@@ -10,7 +10,7 @@ import scrolldown from "public/assets/scrolldown.svg";
 import Image from "next/image";
 const Home = () => {
   return (
-    <main>
+    <main className="bg-black">
       <section className="w-full h-screen sm:h-[110vh]   max-lg:object-contain max-widescreen:bg-left-bottom  xl:h-[960px] bg-[url('/assets/hero.png')] relative max-lg:pb-12 overflow-hidden">
         <div className="overlay"></div>
         <Navbar />
