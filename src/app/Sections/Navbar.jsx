@@ -83,7 +83,7 @@ const Navbar = () => {
 
                 <div className="">
                   <details className="group [&_summary::-webkit-details-marker]:hidden">
-                    <summary className="cursor-pointer  justify-start items-center flex gap-1 transition text-white  font-open text-xs font-bold leading-none tracking-[1.2px] uppercase">
+                    <summary className="cursor-pointer  justify-start items-center flex gap-1 transition text-white  font-open text-xs font-bold leading-none tracking-[1.2px] uppercase outline-none border-none">
                       <span> ENG </span>
 
                       <span className="transition group-open:-rotate-180">
