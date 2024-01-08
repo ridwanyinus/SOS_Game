@@ -15,7 +15,7 @@ const Hero = () => {
           <MdOutlineGetApp size={20} className="-rotate-90 group-hover:text-white" />
         </span>
 
-        <button className="inline-flex text-darkbrown font-bold font-open text-[14px] xs:text-base leading-normal gap-2 transition-all group-hover:ms-6 group-hover:text-white">
+        <button className="inline-flex text-darkbrown font-bold font-open text-[14px] xs:text-base leading-normal gap-2 transition-all group-hover:ms-6 group-hover:text-white outline-none border-none">
           Buy on steam
           <span className="inline-block group-hover:text-white">
             <Image src={btndivider} alt="divider" className="group-hover:text-white" />
