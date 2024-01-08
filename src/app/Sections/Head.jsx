@@ -10,7 +10,7 @@ const Head = () => {
   const ref1 = useRef();
   const isVisible1 = useIsVisible(ref1);
   return (
-    <section className="w-full h-screen sm:h-[110vh]   max-lg:object-contain max-widescreen:bg-left-bottom  xl:h-[960px] bg-[url('/assets/hero.png')] relative max-lg:pb-12 overflow-hidden">
+    <section className="w-full h-[80vh] sm:h-[110vh]   max-lg:object-contain max-widescreen:bg-left-bottom  xl:h-[960px] bg-[url('/assets/hero.png')] relative max-lg:pb-12 overflow-hidden">
       <div ref={ref1} className={`transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
         <div className="overlay"></div>
         <Navbar />
