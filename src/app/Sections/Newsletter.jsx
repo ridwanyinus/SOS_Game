@@ -4,7 +4,7 @@ const Newsletter = () => {
   return (
     <section className="bg-dark relative  h-full flex items-center max-sm:gap-y-12 sm:space-x-6 md:space-x-12 lg:space-x-28 xl:space-x-0 justify-between px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-16 md:py-20 lg:py-28 max-sm:flex-col">
       <div className="newsletter max-md:w-[300px] relative ">
-        <Image src={footer} alt="newsletter-bg" className="w-[412px] max-small:h-[80vh]" />
+        <Image src={footer} alt="newsletter-bg" className="w-[412px] max-small:h-[60vh]" />
       </div>
 
       <div className="z-10  w-fit overflow-hidden">
