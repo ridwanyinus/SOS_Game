@@ -1,8 +1,16 @@
-import React from "react";
+"use client";
+import { useRef } from "react";
+import { useIsVisible } from "@app/Components/useIsVisible";
 
 const Requirements = () => {
+  const ref4 = useRef();
+  const isVisible4 = useIsVisible(ref4);
   return (
-    <section id="requirments" className="relative py-20  w-full h-[960px] bg-[url('/assets/requirements-bg.png')] sm:bg-[url('/assets/requirements.png')] _requirements space-y-20 max-lg:h-full">
+    <section
+      id="requirments"
+      ref={ref4}
+      className={`relative py-20  w-full h-[960px] bg-[url('/assets/requirements-bg.png')] sm:bg-[url('/assets/requirements.png')] _requirements space-y-20 max-lg:h-full transition-opacity ease-in duration-700 
+      ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
       <div className="relative text-center pt-16  mx-auto">
         <p className="text-white  font-bebas text-base xs:text-lg sm:text-2xl tracking-[2px] leading-normal font-normal">Can My Computer Run this game?</p>
         <h1 className="uppercase  font-bebas  text-4xl sm:text-5xl md:text-7xl lg:text-[80px] tracking-[3px] text-white">system requirements</h1>

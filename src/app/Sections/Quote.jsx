@@ -1,15 +1,24 @@
+"use client";
+
 import quote from "public/assets/quote.png";
 import quote1 from "public/assets/quote1.svg";
+import { useRef } from "react";
+import { useIsVisible } from "@app/Components/useIsVisible";
 import quote2 from "public/assets/quote2.svg";
 import quote3 from "public/assets/quote3.svg";
 
 import Image from "next/image";
 
 const Quote = () => {
+  const ref5 = useRef();
+  const isVisible5 = useIsVisible(ref5);
   return (
     <section
       id="quote"
-      className="max-small:px-6 px-4 sm:px-8 md:px-12 xl:px-16  relative py-24  lg:py-32 xl:py-40 h-full  w-full bg-darkbrown flex  max-small:flex-col justify-between max-small:space-y-12">
+      ref={ref5}
+      className={`max-small:px-6 px-4 sm:px-8 md:px-12 xl:px-16  relative py-24  lg:py-32 xl:py-40 h-full  w-full bg-darkbrown flex  max-small:flex-col justify-between max-small:space-y-12 transition-opacity ease-in duration-700 ${
+        isVisible5 ? "opacity-100" : "opacity-0"
+      }`}>
       <div className="z-10  relative flex flex-col justify-center max-lg:flex-1 ">
         <h2 className="text-white text-xl xs:text-2xl font-bebas tracking-[2px] leading-normal pb-3 w-fit">What people think?</h2>
         <h1 className="text-white text-4xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[80px] font-bebas font-normal uppercase leading-[100%] tracking-[3px] pb-10 w-fit">Press quotes</h1>

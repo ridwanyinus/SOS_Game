@@ -1,9 +1,15 @@
+"use client";
+import { useRef } from "react";
+import { useIsVisible } from "@app/Components/useIsVisible";
 import point from "/public/assets/point.svg";
 import pointicon from "/public/assets/point-icon.svg";
 import Image from "next/image";
+
 const Features = () => {
+  const ref3 = useRef();
+  const isVisible3 = useIsVisible(ref3);
   return (
-    <section id="feature" className="lg:px-12  bg-dark w-full  h-full lg:h-[880px] relative flex">
+    <section id="feature" ref={ref3} className={`lg:px-12  bg-dark w-full  h-full lg:h-[880px] relative flex transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
       <div className="absolute w-screen top-0 left-0  h-full bg-dark bg-opacity-75 xl:hidden"></div>
 
       <main className="relative flex-1 xl:w-[35vw] z-10 md:pt-36 flex flex-col items-end xs:items-start  md:items-end px-4 xs:px-12 lg:px-0 max-lg:py-12 xl:mr-12">

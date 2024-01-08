@@ -1,35 +1,21 @@
-import Navbar from "./Sections/Navbar";
-import Hero from "./Sections/Hero";
+"use client";
+
 import About from "./Sections/About";
 import Features from "./Sections/Features";
 import Requirements from "./Sections/Requirements";
-import Newsletter from "./Sections/Newsletter";
-import Footer from "./Sections/Footer";
 import Quote from "./Sections/Quote";
-import scrolldown from "public/assets/scrolldown.svg";
-import Image from "next/image";
+import Head from "./Sections/Head";
+import News_Footer from "./Sections/News_Footer";
+
 const Home = () => {
   return (
     <main className="bg-black">
-      <section className="w-full h-screen sm:h-[110vh]   max-lg:object-contain max-widescreen:bg-left-bottom  xl:h-[960px] bg-[url('/assets/hero.png')] relative max-lg:pb-12 overflow-hidden">
-        <div className="overlay"></div>
-        <Navbar />
-        <Hero />
-        <div className="absolute bottom-5 xl:bottom-10 max-xl:right-[45%]  xl:right-[50%] block w-fit mx-auto place-content-center">
-          <a href="#about" className="text-white font-open text-[10px] xs:text-xs leading-[22px] uppercase font-bold text-center flex flex-col justify-center items-center xs:space-y-1 ">
-            <button type="button" className="uppercase">
-              the story
-            </button>
-            <Image src={scrolldown} alt="scrolldown" />
-          </a>
-        </div>
-      </section>
+      <Head />
       <About />
       <Features />
       <Requirements />
       <Quote />
-      <Newsletter />
-      <Footer />
+      <News_Footer />
     </main>
   );
 };

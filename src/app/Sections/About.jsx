@@ -1,10 +1,19 @@
+"use client";
+import { useRef } from "react";
+import { useIsVisible } from "@app/Components/useIsVisible";
 import CarouselPage from "@app/Components/Carousel";
 
 const About = () => {
+  const ref2 = useRef();
+  const isVisible2 = useIsVisible(ref2);
   return (
     <section
       id="about"
-      className="relative bg-[url('/assets/about.png')] h-full lg:h-[960px] w-full lg:px-16 flex justify-center  place-items-center *:text-white overflow-hidden max-lg:py-16 max-lg:mx-auto space-x-4 xs:space-x-8 md:space-x-10 lg:space-x-0">
+      ref={ref2}
+      className={`relative bg-[url('/assets/about.png')] h-full lg:h-[960px] w-full lg:px-16 flex justify-center  place-items-center *:text-white overflow-hidden max-lg:py-16 max-lg:mx-auto space-x-4 xs:space-x-8 md:space-x-10 lg:space-x-0 transition-opacity ease-in duration-700 ${
+        isVisible2 ? "opacity-100" : "opacity-0"
+        } `}>
+      
       <div className="about_gradient"></div>
 
       <div className="flex flex-col relative space-y-4 flex-1 z-50">
