@@ -14,7 +14,7 @@ import { SiSteam } from "react-icons/si";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="z-50 mt-0 lg:px-20 lg:py-4 px-4 py-4">
+    <nav className="z-50 max-lg:fixed mt-0 lg:px-20 lg:py-4 px-4 py-4 ">
       <div className="flex relative lg:items-center justify-between">
         <div className="block">
           <Image src={logo} alt="logo" className="w-auto h-auto max-lg:w-[55px]" priority />
