@@ -1,4 +1,3 @@
-"use client";
 
 import About from "./Sections/About";
 import Features from "./Sections/Features";
